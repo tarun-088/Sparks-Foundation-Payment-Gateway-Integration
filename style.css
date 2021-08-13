@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Montserrat';
+
+}
+
+h2{
+    color: #fff;
+}
+
+h3{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://previews.123rf.com/images/arrow/arrow1712/arrow171200001/91617500-charity-and-donation-background-with-various-icons.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.logo {
+	float: left;
+}
+
+
+.welcome{
+	position: absolute;
+	width: 650px;
+	height: 300px;
+    margin: 20% 30%;
+	text-align: center;
+}
+.welcome h3 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.welcome h3 span {
+	color: #00fecb;
+}
+
+
+.welcome a {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:20px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:12px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.welcome a:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.welcome a:active {
+	position:relative;
+	top:1px;
+}
+
+@media (max-width:600px) {
+
+  .heading h3{
+
+    text-align: center;
+  }
+
+	.logo {
+
+		width: 50%;
+    margin-left: 60px;
+
+
+	}
+	.welcome{
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome h1 {
+		font-size: 30px;
+  }
+}
+body {
+    margin: 0;
+    font-family: Montserrat;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  /* header */
+
+  .header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
